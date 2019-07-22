@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PDV.Domain.Entities\PDV.Domain.Entities.csproj" />
+    <ProjectReference Include="..\PDV.Domain.Interfaces\PDV.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\PDV.Infra.CrossCutting\PDV.Infra.CrossCutting.csproj" />
+    <ProjectReference Include="..\PDV.Infra.Data\PDV.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
